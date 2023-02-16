@@ -11,7 +11,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh './hello' 
+                sh './cat' 
                 echo 'test stage executed successfully'
             }
         }
